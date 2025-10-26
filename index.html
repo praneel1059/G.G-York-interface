@@ -5,10 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Campus Reuse Interface | University of York</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin: 40px; background-color: #f9f9f9; }
+    body {
+  max-width: 1100px;
+  margin: 40px auto;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+    }
     h1 { color: #333; }
     img { margin: 15px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); width: 400px; }
     p { max-width: 700px; margin: auto; color: #555; }
+    figure {
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+  max-width: 320px;
+  vertical-align: top;
+}
+figcaption {
+  font-size: 14px;
+  color: #444;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
   </style>
 </head>
 <body>
@@ -17,23 +37,68 @@
 
   <p>This project was designed to help students exchange and donate reusable items through a user-centered interface, developed as part of the HCIN module.</p>
 
-  <h2>Interface Screens</h2>
 <h2>Interface Screens</h2>
 
-<img src="images/gg1.png" alt="Screen 1" width="400">
-<img src="images/gg2.png" alt="Screen 2" width="400">
-<img src="images/gg3.png" alt="Screen 3" width="400">
-<img src="images/gg4.png" alt="Screen 4" width="400">
-<img src="images/gg5.png" alt="Screen 5" width="400">
-<img src="images/gg6.png" alt="Screen 6" width="400">
-<img src="images/gg7.png" alt="Screen 7" width="400">
-<img src="images/gg8.png" alt="Screen 8" width="400">
-<img src="images/gg9.png" alt="Screen 9" width="400">
-<img src="images/gg10.png" alt="Screen 10" width="400">
-<img src="images/gg11.png" alt="Screen 11" width="400">
-<img src="images/gg12.png" alt="Screen 12" width="400">
-<img src="images/gg13.png" alt="Screen 13" width="400">
+<figure>
+  <img src="images/gg1.png" width="300" alt="Main feed interface">
+  <figcaption><b>Main Feed:</b> Displays products in randomized order. Users can swipe right to express interest or left to dismiss, providing a fast and intuitive experience similar to Tinder-style interaction.</figcaption>
+</figure>
 
+<figure>
+  <img src="images/gg2.png" width="300" alt="Product search and filters">
+  <figcaption><b>Search and Filter:</b> Allows users to search for specific items and apply filters such as price, seller rating, or tradeable status to refine results.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg3.png" width="300" alt="Product details view">
+  <figcaption><b>Product Details:</b> Displays product-specific information like price, seller name, and condition, helping users make informed decisions before purchasing.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg4.png" width="300" alt="Publish item interface">
+  <figcaption><b>Publish Item:</b> Enables users to upload images, set a selling or trading option, add pricing, and write descriptions for their items.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg5.png" width="300" alt="Seller inbox">
+  <figcaption><b>Seller Inbox:</b> Shows incoming buyer requests with options to accept, decline, or message, ensuring streamlined communication for sellers.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg6.png" width="300" alt="Buyer requests">
+  <figcaption><b>Buyer Requests:</b> Displays the buyer’s side of transactions, showing sent, accepted, or declined offers with a messaging option when accepted.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg7.png" width="300" alt="Chat interface">
+  <figcaption><b>Chat Interface:</b> Facilitates communication between buyer and seller. Product images automatically appear in the chat to give context to the conversation.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg9.png" width="300" alt="Choose collection location">
+  <figcaption><b>Choose Collection Location:</b> Users select between self-collection or post-room pickup, promoting flexibility and safety in item exchanges.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg10.png" width="300" alt="Post room collection details">
+  <figcaption><b>Post Room Details:</b> Lets users provide their collection date, time, and contact details after selecting the post-room delivery option.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg11.png" width="300" alt="Payment interface">
+  <figcaption><b>Payment Options:</b> Integrates multiple payment methods (Apple Pay, Samsung Pay, PayPal) along with manual card entry for secure transactions.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg12.png" width="300" alt="Review order interface">
+  <figcaption><b>Review Order:</b> Enables buyers to rate both the product and the seller after purchase, leaving additional comments to ensure accountability and feedback.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/gg13.png" width="300" alt="Personal profile page">
+  <figcaption><b>User Profile:</b> Displays user bio, buyer rating, and style preferences. Ratings are based on feedback from sellers, promoting trust within the platform.</figcaption>
+</figure>
+  
   <p>Designed using <strong>Figma</strong> · Evaluated through <strong>Collaborative Heuristic Evaluation</strong> · Based on <strong>Nielsen’s Heuristics</strong> and <strong>Norman’s Principles of Design</strong>.</p>
 </body>
 </html>
